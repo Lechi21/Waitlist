@@ -243,11 +243,13 @@ span {
     }
 
     .foot {
+        flex: 1;
         margin-top: 25px;
     }
 
     .socails {
-        font-size: 15px;
+        flex: 1;
+        font-size: 14px;
     }
 
     
