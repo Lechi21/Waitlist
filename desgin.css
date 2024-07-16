@@ -234,5 +234,9 @@ span {
         width: fit-content;
     }
 
+    footer {
+        display: none;
+    }
+
     
 }
