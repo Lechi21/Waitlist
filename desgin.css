@@ -216,4 +216,23 @@ span {
         display: flex;
         margin: 15px;
     }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    input {
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    button {
+        width: fit-content;
+    }
+
+    
 }
