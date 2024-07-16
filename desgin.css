@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/Background.jpeg) no-repeat center center/cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home .Home-logo {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.home-h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.color2 {
+    color: #044395;
+    margin-right: -4px;
+}
+
+.home .Home-logo img {
+    flex: 1;
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+    margin-right: -11px;
+    margin-top: 2px;
+}
+
+p {
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+a {
+    color: #044395;
+    text-decoration: none;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid #044395;
+    color: #fff;
+    background-color: #044395;
+    padding: 5px 8px 5px 8px;
+}
+
+.second {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic {
+    font-size: 25px;
+    text-align: center;
+}
+
+.tops {
+    margin-top: 2rem;
+}
+
+.inputs {
+    margin-top: 1rem;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40%;
+    background-color: #EBF0F7;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: #044395;
+    color: #fff;
+    cursor: pointer;
+}
+
+.third {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EBF0F7;
+    color: #000;
+    border-radius: 5px;
+    padding: 25px;
+    font-size: 22px;
+}
+
+.card {
+    display: flex;
+}
+
+.card h6 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: auto;
+}
+
+.card .innerCard {
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    background-color: #044395;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+}
+
+.links {
+    color: #fff;
+    margin: 10px;
+}
+
+span {
+    margin-left: 5px;
+}
