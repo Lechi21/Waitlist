@@ -175,3 +175,42 @@ footer {
 span {
     margin-left: 5px;
 }
+
+@media screen and (max-width: 768px) {
+    .home .Home-logo {
+        margin-left: 0px;
+    }
+
+    .second {
+        margin-top: 0rem;
+    }
+
+    .topic {
+        font-size: 20px;
+    }
+
+    .third {
+        display: flex;
+        margin-top: 1rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cards {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #EBF0F7;
+        color: #000;
+        border-radius: 5px;
+        padding: 25px;
+        font-size: 22px;
+        flex-direction: column;
+    }
+
+    .card {
+        display: flex;
+        margin: 15px;
+    }
+}
