@@ -15,7 +15,7 @@
 <body>
     <section>
         <div class="home">
-            <a onclick="goHome(); return false">
+            <a href="#">
                 <div class="Home-logo">
                     <h2 class="home-h2"><b class="color2">Insanj</b></h2>
                     <img src="images/logoBox.png">
@@ -32,9 +32,9 @@
             <h5 class="tops">Unlock efficiency, streamline processes, and make informed decisions <br> with Insanjo (our real-time sales and tracking and analytics tool)</h5>
             <p class="tops">Be the first to experience a better sales management approach by joining the waitlist</p>
             <div class="inputs">
-                <form action="">
-                    <input type="text" placeholder="Enter your Email Address">
-                    <button>Join the waitlist  ></button>
+                <form id="waitlist-form" action="https://formspree.io/f/xzzbrewz" method="POST">
+                    <input type="email" name="email" id="email" placeholder="Enter your Email Address" required>
+                    <button type="submit">Join the waitlist ></button>
                 </form>
             </div>
         </div>
@@ -75,21 +75,21 @@
             <nav class="footer-nav"> © 2024 Copyright: Lechi-Tech</a></nav>
         </div>
         <div class="socails">
-            <a class="links" href="#" class="icon-facebook">
+            <!-- <a class="links" href="#" class="icon-facebook">
                 <i class="fab fa-facebook-f"><span>Facebook</span></i>
             </a>
             <a class="links" href="#" class="icon-twitter">
                 <i class="fab fa-twitter"><span>Twitter</span></i>
-            </a>  
-            <a class="links" href="#" class="icon-linkedin">
+            </a>   -->
+            <a class="links" href="https://www.linkedin.com/company/insanjo/" target="_blank" class="icon-linkedin">
                 <i class="fab fa-linkedin-in"><span>LinkedIn</span></i>
             </a>
-            <a class="links" href="#" class="icon-instagram">
+            <a class="links" href="https://www.instagram.com/official_insanjo" target="_blank" class="icon-instagram">
                 <i class="fab fa-instagram"><span>Instagram</span></i>
             </a>
         </div>
     </footer>
     
-    
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>
