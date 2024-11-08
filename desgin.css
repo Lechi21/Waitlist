@@ -19,10 +19,11 @@ body::before {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: url(images/Background.jpeg) no-repeat center center/cover;
     filter: blur(5px);
     z-index: -1;
+    background-size: cover;
 }
 
 section {
@@ -98,7 +99,7 @@ a {
 }
 
 .tops {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .inputs {
@@ -217,16 +218,36 @@ input:focus {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+.material-symbols-sharp {
+    font-size: 1.5rem;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}  
+
 footer {
     display: flex;
     justify-content: space-around;
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
     background-color: #044395;
     color: #fff;
     width: 100%;
     padding: 15px;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .links {
@@ -272,18 +293,18 @@ span {
         display: flex;
         width: 100%;
         justify-content: space-around;
-        align-items: center;
         background-color: #EBF0F7;
         color: #000;
         border-radius: 5px;
         padding: 25px;
         font-size: 22px;
         flex-direction: column;
+        align-items: stretch;
     }
 
     .card {
         display: flex;
-        margin: 15px;
+        margin: 10px 0; 
     }
 
     form {
@@ -313,7 +334,9 @@ span {
 
     .foot {
         flex: 1;
-        margin-top: 25px;
+        margin-top: 13px;
+        font-size: 0.7rem;
+        margin-left: 9px;
     }
 
     .socails {
